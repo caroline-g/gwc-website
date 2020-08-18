@@ -1,6 +1,6 @@
 /*TODO: Add a background color or image to your website*/
 body {
-  background-color: #F1FDFF;
+  background-color: white;
   text-align: center;
 }
 
@@ -21,6 +21,7 @@ h1 {
 h2 {
   padding-top: 0.8em;
   font-family: "Playfair Display";
+  padding-bottom: 0.5em
 }
 
 h3 {
@@ -56,10 +57,6 @@ h3 {
 
 #flex-quiz {
   display: flex
-}
-
-#video {
-  max-width: 800%
 }
 
 .twiu {
@@ -106,7 +103,12 @@ li a:hover {
   font-family: "Mukta";
   text-align: left;
   padding-left: 1em;
-  
+  padding-right: 1em;
+  background-color: #F1FDFF
+}
+
+.pinkbg {
+  background-color: #FFEFF1
 }
 
 
