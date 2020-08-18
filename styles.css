@@ -58,6 +58,10 @@ h3 {
   display: flex
 }
 
+#video {
+  max-width: 800%
+}
+
 .twiu {
   padding-top: 2em;
   padding-bottom: 2em;
@@ -96,8 +100,8 @@ li a:hover {
   background-color: #ffb3d9;
 }
 
-#recognition {
-  display: vertical;
+#recognition li {
+  display: block;
   list-style-type: bullets;
   font-family: "Mukta";
 }
