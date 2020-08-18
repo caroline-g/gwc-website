@@ -9,7 +9,12 @@ h1 {
 }
 
 .header {
-  background-color: #FFCEDC
+  background-color: #FFCEDC;
+  text-align: center
+}
+
+#profile-image {
+  border-radius: 100%;
 }
 
 /*TODO: Create a new style rule by the class attribute and style the header section(s) of your website. */
