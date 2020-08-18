@@ -72,7 +72,7 @@ h3 {
 /*TODO: Add styling rules for the text and images on your website.*/
 
 /*TODO: Style the Nav Bar by selecting the u1, li, and li a elements*/
-ul {
+.nav ul {
   list-style-type: none;
   background-color: #FFEFF1;
   padding: 0.8em;
@@ -100,10 +100,14 @@ li a:hover {
   background-color: #ffb3d9;
 }
 
-#recognition li {
+.recognition li {
   display: block;
   list-style-type: bullets;
   font-family: "Mukta";
+  text-align: left;
+  padding-left: 1em;
+  
 }
+
 
 /*TODO: Create a Flexbox to create a responsive layout. Use the property display: flex; */
