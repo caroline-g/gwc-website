@@ -6,12 +6,15 @@ body {
 
 p {
   padding-bottom: 1em;
-  padding-top: 0.5em
+  padding-top: 0.5em;
+  font-family: Mukta;
+  padding-left: 1e
 }
 
 h1 {
   color: black;
-  padding: 1em
+  padding: 1em;
+  font-family: 'Playfair Display'
 }
 
 h2 {
@@ -57,11 +60,6 @@ h3 {
 }
 
 /*TODO: Add styling rules for the text and images on your website.*/
-#recognition {
-  display: vertical
-}
-
-
 
 /*TODO: Style the Nav Bar by selecting the u1, li, and li a elements*/
 ul {
@@ -91,6 +89,9 @@ li a:hover {
   background-color: #ffb3d9;
 }
 
-
+#recognition {
+  display: vertical;
+  list-style-type: bullets
+}
 
 /*TODO: Create a Flexbox to create a responsive layout. Use the property display: flex;/ 
