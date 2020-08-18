@@ -8,6 +8,9 @@ h1 {
   color: black;
 }
 
+.header {
+  background-color: #FFCEDC
+}
 
 /*TODO: Create a new style rule by the class attribute and style the header section(s) of your website. */
 
