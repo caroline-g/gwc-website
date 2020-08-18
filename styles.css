@@ -21,7 +21,8 @@ h2 {
 /*TODO: Create a new style rule by the class attribute and style the header section(s) of your website. */
 .header {
   background-color: #FFCEDC;
-  text-align: center
+  text-align: center;
+
 }
 
 #profile-image {
@@ -53,11 +54,19 @@ h2 {
 ul {
   list-style-type: none;
   background-color: #FFEFF1;
-  padding: 0.8em
+  padding: 0.8em;
+  overflow: hidden;
+  positon:
 }
 
 li {
-  display: inline
+  display: inline;
+  border-right: 2px solid white;
+}
+
+li a {
+   text-decoration: none;
+  
 }
 
 
