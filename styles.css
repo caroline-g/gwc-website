@@ -1,62 +1,68 @@
 /*TODO: Add a background color or image to your website*/
 body {
- background-color: #F1FDFF;
- text-align: center
+  background-color: #F1FDFF;
+  text-align: center;
 }
 
 p {
   padding-bottom: 1em;
   padding-top: 0.5em;
-  font-family: Mukta;
-  padding-left: 1e
+  font-family: "Mukta";
+  padding-left: 0.8em;
+  padding-right: 0.8em;
 }
 
 h1 {
   color: black;
   padding: 1em;
-  font-family: 'Playfair Display'
+  font-family: "Playfair Display";
 }
 
 h2 {
-  padding-top: 0.8em
+  padding-top: 0.8em;
+  font-family: "Playfair Display";
 }
 
 h3 {
-  padding: 2em
+  padding: 2em;
+  font-family: "Mukta";
 }
 
 /*TODO: Create a new style rule by the class attribute and style the header section(s) of your website. */
 .header {
   background-color: #FFCEDC;
   text-align: center;
-
 }
 
 #profile-image {
   padding-top: 1em;
   border-radius: 25%;
-  max-width: 800%
+  max-width: 800%;
 }
 
 /*TODO: Use the * selector to reset the margin and padding to 0px*/
 * {
   margin: 0px;
-  padding: 0px
+  padding: 0px;
 }
 
-.flex {
+#flex-website {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify: space-around;
-  justify: center
+  justify: center;
+}
+
+#flex-quiz {
+  display: flex
 }
 
 .twiu {
   padding-top: 2em;
   padding-bottom: 2em;
   padding-right: 1em;
-  padding-left: 1em
+  padding-left: 1em;
 }
 
 /*TODO: Add styling rules for the text and images on your website.*/
@@ -67,6 +73,7 @@ ul {
   background-color: #FFEFF1;
   padding: 0.8em;
   overflow: hidden;
+  font-family: "Playfair Display";
 }
 
 li {
@@ -79,10 +86,10 @@ li:last-child {
 }
 
 li a {
-   text-decoration: none;
-   color: gray;
-   font-size: 1.1em;
-   padding: 1em
+  text-decoration: none;
+  color: gray;
+  font-size: 1em;
+  padding: 1em;
 }
 
 li a:hover {
@@ -91,7 +98,8 @@ li a:hover {
 
 #recognition {
   display: vertical;
-  list-style-type: bullets
+  list-style-type: bullets;
+  font-family: "Mukta";
 }
 
-/*TODO: Create a Flexbox to create a responsive layout. Use the property display: flex;/ 
+/*TODO: Create a Flexbox to create a responsive layout. Use the property display: flex; */
