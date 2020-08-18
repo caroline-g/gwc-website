@@ -5,7 +5,7 @@ body {
 }
 
 p {
-  padding-bottom: 1.3em;
+  padding-bottom: 1em;
   padding-top: 0.5em
 }
 
@@ -41,9 +41,9 @@ h2 {
   display: flex
 }
 
-
-
-
+.twiu {
+  
+}
 
 /*TODO: Add styling rules for the text and images on your website.*/
 
@@ -56,7 +56,6 @@ ul {
   background-color: #FFEFF1;
   padding: 0.8em;
   overflow: hidden;
-  positon:
 }
 
 li {
@@ -64,9 +63,19 @@ li {
   border-right: 2px solid white;
 }
 
+li:last-child {
+  border-right: none;
+}
+
 li a {
    text-decoration: none;
-  
+   color: gray;
+   font-size: 1.1em;
+   padding: 1em
+}
+
+li a:hover {
+  background-color: #ffb3d9;
 }
 
 
