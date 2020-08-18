@@ -18,6 +18,10 @@ h2 {
   padding-top: 0.8em
 }
 
+h3 {
+  padding: 2em
+}
+
 /*TODO: Create a new style rule by the class attribute and style the header section(s) of your website. */
 .header {
   background-color: #FFCEDC;
@@ -38,15 +42,24 @@ h2 {
 }
 
 .flex {
-  display: flex
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify: space-around;
+  justify: center
 }
 
 .twiu {
-  
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-right: 1em;
+  padding-left: 1em
 }
 
 /*TODO: Add styling rules for the text and images on your website.*/
-
+#recognition {
+  display: vertical
+}
 
 
 
